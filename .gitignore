@@ -1,0 +1,5 @@
+# Ignore Ansible host inventory file
+hosts
+
+# Ignore Ansible fact gathering directory
+fact_cache/
