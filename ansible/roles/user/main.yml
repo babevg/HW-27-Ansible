@@ -1,0 +1,8 @@
+ ---
+   - name: Add user
+     user:
+       name: myuser
+       shell: /bin/bash
+       password: "{{ 'mypassword' | password_hash('sha512') }}"
+       groups: sudo
+       createhome: yes

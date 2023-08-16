@@ -3,3 +3,5 @@ hosts
 
 # Ignore Ansible fact gathering directory
 fact_cache/
+# Ignore public key file
+user/.ssh/*.pub
